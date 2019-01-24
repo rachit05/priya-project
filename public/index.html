@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SGSITS</title>
+
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+
+    // PRE LOADER
+
+    let preLoader = document.querySelector('.preLoader');
+
+    window.onload = function(){
+        
+        setTimeout(()=>{
+            document.body.classList.add('preLoaderClosed');
+            console.log('dummmy delay')
+        },5000)
+    }
+    </script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <section class="preLoader">
+        <ul>
+            <li>S</li>
+            <li>G</li>
+            <li>S</li>
+            <li>I</li>
+            <li>T</li>
+            <li>S</li>
+        </ul>
+    </section>
+<div class="container">
+    <div id="fixedMenu">
+        <button id="closeMenuBtn">
+            <i class="fas fa-times"></i>
+        </button>
+        <div>
+            <li class="fmli li1"><a href="#">Academia Login</a></li>
+            <li class="fmli li2"><a href="#">Web Mail</a></li>
+            <li class="fmli li3"><a href="#">Exam Portal Login</a></li>
+        </div>
+        <div>
+            <li class="fmli li4"><a href="#">Examination & Results</a></li>
+            <li class="fmli li5"><a href="#">Academic Notice</a></li>
+            <li class="fmli li6"><a href="#">U.G.Admission</a></li>
+        </div>
+        <div>
+            <li class="fmli li7"><a href="#">P.G.Admission</a></li>
+            <li class="fmli li8"><a href="#">Career@SGSITS</a></li>
+            <li class="fmli li9"><a href="#">Tenders</a></li>
+        </div>
+        <div>
+            <li class="fmli li10"><a href="#">Downloads</a></li>
+            <li class="fmli li11"><a href="#">Mandatory Declaration/NIRF</a></li>
+            <li class="fmli li12"><a href="#">Help</a></li>
+        </div>
+    </div>
+    <header>
+        <button id="openMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div id="aboveNav">
+            <div id="logo">
+                <img src="./images/logo.png" alt="SGSITS LOGO">
+            </div>
+            <div id="logoTitle">
+                <h2>SHRI G. S. INSTITUTE OF TECHNOLOGY & SCIENCE, INDORE</h2>
+                <h4>Govt. Aided Autonomous Institute Estd. In 1952</h4>
+                <h5>Affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal & Devi Ahilya Vishwavidyalaya, Indore</h5>
+            </div>
+        </div>
+        <nav>
+            <ul class="topNav">
+                <li class="navItem">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="navItem">
+                    <a href="#">ABOUT US &nbsp; <i class="fas fa-chevron-down"></i> </a>
+                    <ul class="dropdown">
+                        <li class="dropdownItem">
+                            <a href="#">About Institute</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Vision and Mission</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Director's Message</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Governing Body</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Administration</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Committees</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Telephone Directory</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Infrastructure</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navItem">
+                    <a href="#">ACADEMICS &nbsp; <i class="fas fa-chevron-down"></i> </a>
+                    <ul class="dropdown">
+                        <li class="dropdownItem">
+                            <a href="#">Departments</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Academic Calender</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Ordinance</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Awards and Recognitions</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navItem">
+                    <a href="#">ADMISSION &nbsp; <i class="fas fa-chevron-down"></i> </a>
+                    <ul class="dropdown">
+                        <li class="dropdownItem">
+                            <a href="#">Under Graduate</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Post Graduate</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">PTDC</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Ph.D.</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navItem">
+                    <a href="#">STUDENTS &nbsp; <i class="fas fa-chevron-down"></i> </a>
+                    <ul class="dropdown">
+                        <li class="dropdownItem">
+                            <a href="#">Student Activities</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Scholarship-post metric</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Scholarship - Merit & Others</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Clubs</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">NCC</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">NSS</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navItem">
+                    <a href="#">FACILITIES &nbsp; <i class="fas fa-chevron-down"></i> </a>
+                    <ul class="dropdown">
+                        <li class="dropdownItem">
+                            <a href="#">Computer Center</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Central Workshop</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Central Library</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Gymnasium</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Dispensary</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">CIDI</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Games and Sports</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navItem">
+                    <a href="#">PLACEMENT &nbsp; <i class="fas fa-chevron-down"></i> </a>
+                    <ul class="dropdown">
+                        <li class="dropdownItem">
+                            <a href="#">Training and Placement Cell</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Leading Companies</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Campus Record</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Contact Person</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navItem">
+                    <a href="#">HOSTEL & ACCOMMODATION &nbsp; <i class="fas fa-chevron-down"></i> </a>
+                    <ul class="dropdown">
+                        <li class="dropdownItem">
+                            <a href="#">Boys Hostel</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Girls Hostel</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Transit Hostel</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Guest House</a>
+                        </li>
+                        <li class="dropdownItem">
+                            <a href="#">Staff Quarters</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navItem">
+                    <a href="#">ALUMNI ASSOCIATION</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./images/slide1.jpg" height="100%" width="100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="./images/slide2.jpg" height="100%" width="100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="./images/slide3.jpg" height="100%" width="100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+            <a class="next" onclick="plusSlides(1)">
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+
+
+        <section id="newsAndEvents">
+            <section id="newsAndUpdates">
+                <h1 class="sectionTitle">
+                    News and Updates &nbsp; <i class="far fa-newspaper" style="color:#ccc"></i>
+                    <a href="#">View all updates</a>
+                </h1>
+                <div class="news">
+                    <h2 class="mainNews">Urgent Notice regarding Last chance of Semester Registration</h2>
+                    <div class="extras">
+                        <strong class="newsDate">22-01-2019</strong>
+                        <a href="" class="viewNews">View</a>
+                    </div>
+                </div>
+                <div class="news">
+                    <h2 class="mainNews">Library OPAC Usage Circular</h2>
+                    <div class="extras">
+                        <strong class="newsDate">12-01-2019</strong>
+                        <a href="" class="viewNews">View</a>
+                    </div>
+                </div>
+                <div class="news">
+                    <h2 class="mainNews">Notice- Revaluation /Challenge for NOV.2018 Examination for BE IV year</h2>
+                    <div class="extras">
+                        <strong class="newsDate">04-01-2018</strong>
+                        <a href="" class="viewNews">View</a>
+                    </div>
+                </div>
+            </section>
+            <section id="events">
+                <h1 class="sectionTitle">
+                    SGSITS EVENTS &nbsp; <i class="fas fa-calendar-alt" style="color:#ccc"></i>
+                    <a href="#">View all Events</a>
+                </h1>
+
+                <div class="eventsWrapper">
+                    <div class="event">
+                        <p class="eventName">
+                            Alumni Meet
+                        </p>
+                        <p class="eventDate">
+                            22 DEC 2018
+                        </p>
+                    </div>
+                    <div class="event">
+                        <p class="eventName">
+                            Swaranjali
+                        </p>
+                        <p class="eventDate">
+                            25 AUG 2018
+                        </p>
+                    </div>
+                    <div class="event">
+                        <p class="eventName">
+                            Induction program
+                        </p>
+                        <p class="eventDate">
+                            16 AUG 2018
+                        </p>
+                    </div>
+                    
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div>
+            <h2 class="footerSectionTitle">Explore Sgsits</h2>
+            <ul>
+                <li>
+                    <a href="">Campus Map</a>
+                </li>
+                <li>
+                    <a href="">Photo Gallery</a>
+                </li>
+                <li>
+                    <a href="">Video Tour</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="footerSectionTitle">QUICK FINDINGS</h2>
+            <ul>
+                <li>
+                    <a href="">TEQIP</a>
+                </li>
+                <li>
+                    <a href="">RTI</a>
+                </li>
+                <li>
+                    <a href="">Startup Cell</a>
+                </li>
+                <li>
+                    <a href="">Anti-Ragging</a>
+                </li>
+                <li>
+                    <a href="">Internal Women Sexual Harassment cell</a>
+                </li>
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="footerSectionTitle">IMPORTANT LINKS</h2>
+            <ul>
+                <li>
+                    <a href="">RGPV</a>
+                </li>
+                <li>
+                    <a href="">DAVV</a>
+                </li>
+                <li>
+                    <a href="">DTE</a>
+                </li>
+                <li>
+                    <a href="">AICTE</a>
+                </li>
+                <li>
+                    <a href="">UGC</a>
+                </li>
+                <li>
+                    <a href="">MPOnline</a>
+                </li>
+                <li>
+                    <a href="">CRISP</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="footerSectionTitle">GET IN TOUCH</h2>
+            <p>
+                Shri Govindram Seksaria Institute of Technology and Science
+            </p>
+            <p>
+                <strong>Address</strong>
+                <address>23 Sir M. Visvesvaraya Marg, Indore, Madhya Pradesh 452003</address> 
+            </p>
+            <p>
+                <strong>Tel</strong>
+                <br/>+91 - 731 - 2582100
+            </p>
+            <p>
+                <strong>Email</strong>
+                <br/>director[at]sgsits.ac.in
+            </p>
+        </div>
+        <div>
+            <h2 class="footerSectionTitle">Quick Help</h2>
+            <form>
+                <input autocomplete="off" type="text" name="fullname" placeholder="Fullname">
+                <input autocomplete="off" type="email" name="email" placeholder="Email Address">
+                <textarea autocomplete="off" name="message" cols="30" rows="5" placeholder="Your Enquiry" ></textarea>
+
+                <button>Send &nbsp; <i class="fas fa-chevron-right"></i> </button>
+            </form>
+        </div>
+    </footer>
+</div>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
